@@ -1,0 +1,1156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    color: black;
+    scroll-behavior: smooth;
+
+}
+
+
+/*----head----*/
+
+header{
+    background-image: url(../images/leasing-slider-bg.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.head-title{
+    background-color: rgba(128, 46, 143, 0.8);
+    height: 300px;
+    width: 580px;
+    margin: 280px 0px 0px 60px;
+    
+}
+.head-title h1{
+    color: #fff;
+    padding: 40px 60px 35px 50px;
+    font-size: 260%;
+}
+.head-title a:link,
+.head-title a:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 15px 40px 15px 40px;
+    margin-left: 50px;
+    font-size: 80%;
+    font-weight: 700;
+}
+.head-title a:hover,
+.head-title a:active{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+/*-----navbar-----*/
+.head-nav-bar{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.main-logo{
+    float: left;
+    margin: 10px 0px 20px 40px;
+}
+nav{
+    float: right;
+    margin-bottom: -16px;
+    margin-right: 40px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 90%;
+    padding: 20px 20px 20px 20px;
+    
+}
+nav ul li a:link,
+nav ul li a:visited{
+    text-decoration: none !important;
+    color: #fff;
+}
+.active-nav{
+    color: #c943e0 !important;
+
+}
+
+nav ul li:hover,
+nav ul li:active{
+    padding: 6px 20px 6px 20px;
+    border-bottom: 2px solid #c943e0;
+    border-top: 2px solid #c943e0;
+    transition: 0.4s;
+
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    color: #fff;
+    transition: 0.4s;
+
+}
+.active-home-i{
+    float: right;
+    margin-top: 22px;
+    margin-right: -10px;
+    color: #c943e0;
+}
+
+/*-----sticky navbar-----*/
+
+.sticky-nav{
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.842) !important;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0px 0.4px 4px 0px rgb(105, 105, 105);
+}
+
+.sticky-nav nav ul{
+    padding-top: -14px !important;    
+}
+
+
+
+
+/*-----home stock section-----*/
+
+.home-stock{
+    background-color: #f4f3f5;
+}
+.head-home-stock{
+    margin-bottom: 40px;
+}
+.head-home-stock h1{
+    font-size: 180%;
+    margin-top: 60px;
+}
+
+.head-home-stock h1::after{
+    content: " ";
+    height: 0.5px;
+    width: 800px;
+    background-color: #e1dede;
+    float: right;
+    margin-top: 25px;
+}
+.leas-items{
+    margin-bottom: 30px;
+}
+.leas-items div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.leas-items div img{
+    transition: transform 0.4s;
+}
+.leas-items img:hover{
+    transform: scale(1.1);
+}
+.leas-items h3{
+    padding: 30px 20px 10px 30px;
+    font-size: 160%;
+}
+.leas-items h5{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.leas-items a:link,
+.leas-item a:active{
+    text-decoration: none;
+    color: black;
+}
+
+
+.stock-more-btn:link,
+.stock-more-btn:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    background-color: black;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 150px 10px 150px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+/*-----calculate section-----*/
+.calculate-col1{
+    padding-bottom: 100px;
+}
+.calculate-col1 img{
+    margin-top: -60px !important;
+    margin-right: 30px;
+    float: right;
+}
+.calculate-col2{
+    padding-bottom: 200px;
+    padding-left: 40px !important;
+}
+.calculate-col2 h6{
+    color: #00aab1;
+    font-size: 80%;
+    font-weight: 650;
+    padding: 100px 0px 8px 0px;
+}
+.calculate-col2 h1{
+    font-size: 280%;
+    padding: 0px 400px 30px 0px;
+    color: black;
+}
+.calculate-col2 span{
+    background-color: #e6f5f6;
+    font-size: 78%;
+}
+.calculate-col2 p{
+    font-size: 78%;
+    padding: 20px 0px 0px 0px;
+}
+.calculate-col2 a:link,
+.calculate-col2 a:visited{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+/*-----Most Popular section-----*/
+.most-popular-sec{
+    background-color: black;
+}
+.heading-popular p{
+    color: #fff;
+    margin-top: 120px;
+    font-size: 84%;
+}
+.heading-popular h1{
+    color: #fff;
+    font-size: 350%;
+    margin-bottom: 80px;
+}
+
+.popular-img-1{
+    height: 500px !important;
+    width: 100% !important;
+    background-image: url(../images/leasing-single-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.popular-img-2{
+    height: 240px !important;
+    width: 100% !important;
+    background-image: url(../images/leasing-portfolio-pic1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+
+.popular-img-3{
+    height: 240px !important;
+    width: 100% !important;
+    margin-top: 20px;
+    background-image: url(../images/leasing-portfolio-pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-----join us section------*/
+
+.join-us-sec{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    border-bottom: solid 1px #e7e7e7;
+}
+.heading-join-sec h1{
+    font-size: 310%;
+    color: black;
+    font-weight: 650;
+    margin-bottom: -10px;
+}
+
+.about-join-sec h4{
+    margin-top: 65px;
+    font-size: 170%;
+}
+.about-join-sec p{
+    font-size: 80%;
+    margin-top: 20px;
+}
+
+.about-join-sec a:link,
+.about-join-sec a:visited{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+/*-----feature section-----*/
+.feature-sec{
+    padding: 80px 0px 90px 0px;
+}
+.feature-sec div h1{
+    font-size: 300%;
+    font-weight: 700;
+    color: #802e8f;
+    
+}
+.feature-sec div h3{
+    padding: 0px 30px 0px 0px;
+    font-size: 170%;
+}
+.feature-sec div p{
+    font-size: 80%;
+    padding: 10px 30px 0px 0px;
+}
+
+.feature-col2{
+    padding-left: 50px !important;
+}
+.feature-col3{
+    padding-left: 68px !important;
+    padding-right: 0px !important;
+}
+
+.feature-chat-btn:link,
+.feature-chat-btn:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    background-color: #802e8f;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 120px 10px 120px;
+    margin-top: 60px;
+
+}
+
+
+/*-----Footer-section-----*/
+
+.footer-section{
+    background-color: #efedf0;
+    padding-top: 100px;
+
+}
+.footer-heading{
+    font-size: 160%;
+    margin-top: 50px;
+
+}
+
+.newsletter{
+    font-size: 120%;
+    font-weight: 630;
+    margin-bottom: 14px;
+}
+.newsletter-btn{
+    background-color: black;
+    color: #fff;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px !important;
+    border: none;
+}
+.footer-section div form input{
+    display: inline-block;
+    border: none;
+    font-size: 80%;
+    padding: 10px 40px 10px 10px;
+   
+}
+.footer-section div form p{
+    font-size: 66%;
+    margin-top: 30px;
+}
+.footer-section div form ul{
+    list-style-type: none;
+    margin-top: 40px !important;
+}
+.footer-section div form ul li{
+    display: inline-block;
+    font-size: 81%;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.call-icon{
+    font-size: 14px;
+    padding-right: 4px;
+}
+.mail-icon{
+    font-size: 16px;
+    padding-right: 6px;
+}
+
+.product-info{
+    margin-top: 100px;
+    border-top: solid 1px #b4b4b4;
+}
+
+.product-info div p{
+    font-size: 80%;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.product-info div p a:link,
+.product-info div p a:visited{
+    color: #802e8f;
+}
+
+.footer-social-i:link,
+.footer-social-i:visited{
+    text-decoration: none !important;
+    color: black;
+    float: right;
+    padding-right: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.footer-social-i:hover,
+.footer-social-i:active{
+    color: #802e8f;
+}
+.footer-up-i:link,
+.footer-up-i:visited{
+    text-decoration: none !important;
+    color: rgb(102, 102, 102);
+    float: right;
+    margin-top: 22px;
+    padding-left: 10px;
+    font-size: 26px;
+}
+.footer-up-i:hover,
+.footer-up-i:active{
+    color: black;
+    
+}
+
+
+/*****----------------------------------About Us Page------------------------------*****/
+
+/*-----header-----*/
+
+.about-headers{
+    background-color: #f4f3f5;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.head-nav-bar-about{
+    background-color: rgba(0, 0, 0, 0.836) !important;
+}
+.home-i{
+    float: right;
+    margin-top: 22px;
+    margin-right: -10px;
+    color: #ffffff;
+}
+
+.about-headers div h6{
+    font-size: 80%;
+    font-weight: 700;
+    color: #00aab1;
+    padding-bottom: 8px;
+}
+.about-headers div h1{
+    font-size: 280%;
+    line-height: 62px;
+}
+.about-headers div h4{
+    padding-left: 170px;
+    padding-top: 10px;
+    font-size: 170%;
+    line-height: 38px !important;
+    padding-bottom: 8px;
+
+}
+.about-headers div p{
+    padding-left: 170px;
+    font-size: 80%;
+    margin-bottom: 14px;
+
+}
+.about-headers div a{
+    margin-left: 170px;
+    color: #802e8f;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+/*-----header-----*/
+
+.company-intro{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.about-man{
+    margin-top: 20px;
+}
+.about-woman{
+    margin-top: 20px;
+}
+.about-man h4{
+    margin-top: 35px;
+    font-size: 166%;
+}
+.about-man p{
+    margin-top: 18px;
+    font-size: 80%;
+    margin-bottom: 60px;
+}
+.about-man a:link,
+.about-man a:visited{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.about-woman h4{
+    margin-top: 35px;
+    font-size: 166%;
+}
+.about-woman p{
+    margin-top: 18px;
+    font-size: 80%;
+}
+
+/*-----What makes us stand out?-----*/
+
+.about-Facilities{
+    background-color: #f4f3f5;
+    padding-bottom: 60px;
+}
+.about-Facilities-heading{
+    background-image: url(../images/leasing-section-bg-partial.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+}
+.about-Facilities-heading h1{
+    margin-top: 110px;
+    margin-left: 170px;
+    font-size: 290%;
+    margin-bottom: 60px;
+}
+.about-Facilities-col{
+    margin-top: 20px;
+}
+.about-Facilities-col h3{
+    font-size: 120%;
+    font-weight: 649;
+    margin-top: 30px;
+
+}
+.about-Facilities-col p{
+    font-size: 80%;
+    padding-right: 80px;
+    margin-top: 14px;
+    padding-bottom: 20px;
+
+}
+
+/*-----welcome to our office-----*/
+
+.welcome-office{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.welcome-office h1{
+    font-size: 270%;
+}
+.welcome-office h4{
+    font-size: 160%;
+    margin-top: 40px;
+}
+.welcome-office p{
+    font-size: 80%;
+    margin-top: 30px;
+}
+.welcome-contact-btn:link,
+.welcome-contact-btn:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    background-color: #802e8f;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 148px 10px 148px;
+    margin-top: 70px;
+}
+
+/*****----------------------------------car leasing page------------------------------*****/
+
+/*-----car leasing stock section-----*/
+
+.home-stock{
+    background-color: #f4f3f5;
+}
+.head-home-stock{
+    margin-bottom: 40px;
+}
+.head-home-stock-carleasing h1{
+    font-size: 270%;
+    margin-top: 20px;
+}
+
+.home-stock div h6{
+    font-size: 80%;
+    font-weight: 700;
+    color: #00aab1;
+    padding-top: 60px;
+}
+
+.head-home-stock-carleasing h1::after{
+    content: " ";
+    height: 0.5px;
+    width: 1110px;
+    background-color: #e1dede;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.leas-items{
+    margin-bottom: 30px;
+}
+.leas-items div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.leas-items div img{
+    transition: transform 0.4s;
+}
+.leas-items img:hover{
+    transform: scale(1.1);
+}
+.leas-items h3{
+    padding: 30px 20px 10px 30px;
+    font-size: 160%;
+}
+.leas-items h5{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.leas-items a:link,
+.leas-item a:active{
+    text-decoration: none;
+    color: black;
+}
+
+
+.stock-more-btn-carleasing:link,
+.stock-more-btn-carleasing:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    background-color: black;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 180px 10px 180px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+
+/*------------------------------------------deatail page--------------------------------------------*/
+
+/*-----header-----*/
+
+.detail-header{
+    background-color: #f4f3f5;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    background-image: url(../images/leasing-bg-logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.detail-header h6{
+    font-size: 80%;
+    font-weight: 700;
+    color: #00aab1;
+}
+.detail-header h1{
+    font-size: 270%;
+
+}
+
+
+.car-design{
+    background-color: #f4f3f5;
+    padding-bottom: 110px;
+
+}
+
+.design-gellery-slider{
+    height: 400px;
+    width: 540px;
+    overflow: hidden !important;
+
+}
+.design-gellery-innerslider{
+    height: 100%;
+    width: 3255px;
+    animation: work 10s infinite;
+}
+@keyframes work{
+    0%{margin-left: 0px;}
+    25%{margin-left: -540px;}
+    50%{margin-left: -1080px;}
+    75%{margin-left: -1620px;}
+    100%{margin-left: -2160px;}
+
+}
+.car-design-title h4{
+    font-size: 170%;
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+.car-design-title p{
+    font-size: 80%;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.car-design-title span{
+    font-size: 80%;
+    margin-left: 40px;
+
+
+}
+.car-design-title span h4{
+    margin-top: 10px;
+    font-size: 190%;
+    display: inline-block;
+    margin-left: -30px;
+
+    
+}
+
+.configure-detail-btn:link,
+.configure-detail-btn:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00aab1;
+    font-size: 80%;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    margin-left: 40px;
+
+}
+
+/*-----car specification section-----*/
+
+.car-specs-section{
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+.car-specs-heading-1 h5{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 120%;
+    font-weight: 700;
+}
+.car-specs-heading-2 h5{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.specs-list{
+    border-bottom: solid #d6d6d6 1px;
+}
+
+.specs-type{
+    font-size: 80%;
+    font-weight: 500;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.specs-value{
+    font-size: 82%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.specs-discribtion p{
+    font-size: 80%;
+    margin-left: 50px;
+    margin-top: 14px;
+    line-height: 26px;
+    
+}
+
+/*-----Why is it worth trusting us? section-----*/
+
+.trusting-section{
+    background-color: #f4f3f5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.trusting-section h1{
+    font-size: 280%;
+}
+.trusting-section h4{
+    font-size: 160%;
+    margin-top: 50px;
+}
+.trusting-section p{
+    font-size: 80%;
+    margin-top: 40px;
+    padding-right: 60px;
+
+}
+.leasing-single-team-img{
+    margin-top: 180px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+/*-----variants-----*/
+
+.car-variants-sec{
+    margin-bottom: 60px;
+}
+
+.car-variants-sec div h1{
+    text-align: center;
+    font-size: 330%;
+    font-weight: 700;
+    color: #802e8f;
+    margin-top: 70px;
+}
+.car-variants-sec h4{
+    text-align: center;
+    font-size: 165%;
+    padding: 0px 50px 0px 50px;
+    margin-top: 30px;
+}
+.car-variants-sec p{
+    text-align: center;
+    font-size: 76%;
+    padding: 0px 26px 0px 26px;
+    margin-top: 40px;
+
+}
+.car-variants-sec ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.car-variants-sec ul li{
+    font-size: 76%;
+    margin-bottom: 14px;
+}
+.variants-btn:link,
+.variants-btn:visited{
+    background-color: #8f1aa4;
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    font-weight: 400;
+    padding: 8px 25px 8px 25px;
+    margin: auto;
+}
+.variants-icon{
+    color: #8f1aa4;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/*-----Discover the advantages of this car-----*/
+
+.Discover-advantages-sec{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.discover-col1 h2{
+    color: #fff;
+    padding-left: 80px;
+    font-size: 190%;
+    margin-bottom: 70px;
+
+}
+.discover-col1 span{
+    color: #474747;
+    margin-left: 80px;
+    background-color: #e6f5f6;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 0px 8px 0px 8px;
+    font-size: 114%;
+}
+
+
+.discover-top-line-col2{
+    width: 89%;
+    border-top: 2px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 130px;
+
+}
+.discover-col2 h2{
+    color: #fff;
+    font-size: 180%;
+
+}
+.discover-col2 p{
+    color: #00aab1;
+    font-size: 86%;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.discover-contact{
+    margin-left: 30%;
+}
+
+/*------------------------------------------Contact page----------------------------------------*/
+
+/*-----contact-header-----*/
+
+.contact-header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/leasing-contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.contact-head-title{
+    background-color: rgba(128, 46, 143, 0.8);
+    height: 300px;
+    width: 580px;
+    margin: 280px 0px 0px 60px;
+}
+.contact-head-title h1{
+    color: #fff;
+    padding: 40px 60px 35px 50px;
+    font-size: 260%;
+}
+.contact-head-title a:link,
+.contact-head-title a:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 15px 40px 15px 40px;
+    margin-left: 50px;
+    font-size: 80%;
+    font-weight: 700;
+}
+.contact-head-title a:hover,
+.contact-head-title a:active{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+/*-----contact-info-sec-----*/
+
+.contact-info-sec{
+    margin-top: 70px;
+}
+.contact-info-adress{
+    margin-left: 60px;
+    padding-right: 90px;
+}
+.contact-info-number{
+    font-size: 150%;
+    font-weight: 400;
+    margin-left: 36px;
+
+}
+.contact-info-mail{
+    font-size: 150%;
+    font-weight: 400;
+    margin-left: 36px;
+
+}
+.contact-icons{
+    font-size: 26px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 8px;
+    color: black;
+
+}
+.contact-info-endline{
+    width: 89%;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+/*-----contact-message-section-----*/
+
+.contact-message-sec{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.contact-time-col h3{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.contact-time-col p{
+    font-size: 85%;
+    margin-left: 60px;
+}
+
+
+.contact-message-form{
+    width: 93%;
+    height: 570px;
+    background-color: #efedf0;
+    border: 40px solid #efedf0;
+}
+#name{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: black;
+    font-size: 85%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 20px;
+}
+#email{
+    width: 49%;
+    height: 50px;
+    border: none;
+    color: black;
+    font-size: 85%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 20px;
+
+}
+#subject{
+    width: 49%;
+    height: 50px;
+    border: none;
+    color: black;
+    font-size: 85%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+
+}
+#message{
+    width: 100%;
+    height: 55%;
+    border: none;
+    color: black;
+    font-size: 85%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.contact-message-btn{
+    background-color: black;
+    color: #fff;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 10px 47.5% 10px 47.5% !important;
+    border: none;
+}
+
+
+/*-----Home page Animation-------*/
+
+.calculater-img{
+    opacity: 0;
+}
+.calculater-img.animated{
+    opacity: 1;
+}
+
+
+.wp-feature-sec-animation{
+    opacity: 0;
+}
+.wp-feature-sec-animation.animated{
+    opacity: 1;
+}
+
+/*-----Detail page Animation-------*/
+
+.wp-carspec1-sec-animation{
+    opacity: 0;
+}
+.wp-carspec1-sec-animation.animated{
+    opacity: 1;
+}
+
+
+.wp-carspec2-sec-animation{
+    opacity: 0;
+}
+.wp-carspec2-sec-animation.animated{
+    opacity: 1;
+}
+
+
+
+
+
+
+.dicover1-sec-animation{
+    opacity: 0;
+}
+.dicover1-sec-animation.animated{
+    opacity: 1;
+}
+
+
+.dicover2-sec-animation{
+    opacity: 0;
+}
+.dicover2-sec-animation.animated{
+    opacity: 1;
+}

@@ -1,0 +1,848 @@
+
+/*////////////       MEDIA QUERY      /////////////*/
+
+/*==========big screen or 1680: from 1280 to 1680px=========*/
+
+    /*------mobile nav-----*/
+
+    .menu-wrap {
+        display: none !important;
+      }
+
+
+/*==========big tablte or 1200: from 1024 to 1200px=========*/
+
+@media only screen and (max-width: 1280px){
+    
+    
+
+    /*------------------------------------------home page--------------------------------------------*/
+
+    /*-----header----*/
+
+
+    header{
+        height: 700px;
+        background-size: cover;
+    }
+
+    .head-title{
+        height: 290px;
+        width: 480px;
+        margin: 270px 0px 0px 30px;
+    }
+    .head-title h1{
+        font-size: 240%;
+    }
+
+    /*------mobile nav-----*/
+
+    .menu-wrap {
+        display: none !important;
+      }
+
+    /*-----calculate section----*/
+
+    .calculate-col1 img{
+        width: 72%;
+    }
+    .calculate-col2 h1{
+        padding: 0px 200px 30px 0px;
+    }
+
+    /*-----join us section----*/
+
+    .join-us-sec{
+        padding-bottom: 120px;
+
+    }
+
+
+    /*------------------------------------------deatail page--------------------------------------------*/
+
+    .design-gellery-slider{
+        margin-left: 180px !important;
+        margin-top: 40px;
+    }
+    .car-design-title{
+        padding-left: 180px !important;
+        margin-top: 40px;
+
+    }
+
+
+    /*------------------------------------------contact page--------------------------------------------*/
+
+    /*-----contact header----*/
+
+    .contact-header{
+        height: 700px;
+    }
+    .contact-head-title{
+        height: 290px;
+        width: 480px;
+        margin: 270px 0px 0px 30px;
+    }
+    .contact-head-title h1{
+        font-size: 240%;
+
+    /*-----contact-info-----*/
+
+    }
+    .contact-icons{
+        margin-left: 60px;
+        margin-top: 58px;
+
+    }
+    .contact-info-number{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .contact-info-mail{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+
+    /*-----contact-message-section------*/
+
+    #email{
+        width: 48%;
+    }
+    #subject{
+        width: 48%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*=========small tablte or big tablte: from 768 to 1023px========*/
+
+@media only screen and (max-width: 1023px){
+
+
+    /*------------------------------------------home page--------------------------------------------*/
+
+    /*-----header-----*/
+
+    .main-logo{
+        margin: 14px 0px 20px 20px;
+    }
+
+    nav{
+        margin-top: -70px;
+        margin-right: 10px;
+    }
+
+    nav ul li{
+        padding: 20px 10px 20px 10px;
+        
+    }
+    .active-home-i{
+        margin-top: -48px;
+        margin-right: -0px;
+    }
+
+     /*-----mobile navbar-----*/
+
+    .home-i{
+       display: none;
+    }
+
+    /*------mobile nav-----*/
+
+    .menu-wrap {
+        display: none !important;
+      }
+
+    /*-----sticky navbar-----*/
+
+    .sticky-nav nav ul{
+        padding-top: 75px !important;    
+    }
+
+
+
+
+    
+
+    header{
+        height: 550px;
+        background-size: cover;
+    }
+
+    .head-title{
+        height: 220px;
+        width: 360px;
+        margin: 130px 0px 0px 10px;
+    }
+    .head-title h1{
+        font-size: 180%;
+        padding: 25px 20px 20px 30px;
+    }
+
+    .head-title a:link,
+    .head-title a:visited{
+    
+    padding: 15px 40px 15px 40px;
+    margin-left: 30px;
+    font-size: 80%;
+    }
+
+
+
+    /*-----calculate section----*/
+
+    .calculate-col1 img{
+        width: 90%;
+        height: 85%;
+    }
+    .calculate-col1 img{
+        margin-top: -50px !important;
+        margin-right: 0px;
+        float: right;
+    }
+    .calculate-col2 h1{
+        padding: 0px 200px 30px 0px;
+    }
+
+    .newsletter{
+        margin-top: 20px;
+    }
+
+     
+    /*------------------------------------------about us page--------------------------------------------*/
+
+    /*-----header-----*/
+
+    .about-headers div h4{
+        padding-left: 100px;
+    }
+    .about-headers div p{
+        padding-left: 100px;
+    
+    }
+
+    /*-----What makes us stand out?-----*/
+
+    .about-Facilities-heading h1{
+        margin-left: 40px;
+    }
+
+    /*------------------------------------------deatail page--------------------------------------------*/
+    .design-gellery-slider{
+        margin-left: 80px !important;
+        margin-top: 40px;
+    }
+    .car-design-title{
+        padding-left: 80px !important;
+        margin-top: 40px;
+
+    }
+
+    /*------------------------------------------contact page--------------------------------------------*/
+
+
+    /*-----contact-header-----*/
+
+    .contact-header{
+        height: 550px !important;
+        
+    }
+
+    .contact-head-title{
+        height: 220px;
+        width: 360px;
+        margin: 130px 0px 0px 10px;
+    }
+    .contact-head-title h1{
+        font-size: 180%;
+        padding: 25px 20px 20px 30px;
+    }
+    .contact-head-title a:link,
+    .contact-head-title a:visited{
+        padding: 15px 40px 15px 40px;
+        margin-left: 30px;
+        font-size: 80%;
+    }
+    
+    
+
+    /*-----contact-message-section------*/
+
+    #email{
+        width: 47%;
+    }
+    #subject{
+        width: 47%;
+    }
+
+    /*-----footer----*/
+
+    .footer-section div form input{
+        padding: 10px 20px 10px 20px !important;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============phone or small tablte: from 481 to 767px===========*/
+
+@media only screen and (max-width: 767px){
+
+
+
+    /*****----------------------------------home Page------------------------------*****/
+
+    body{
+        font-size: 16px !important;
+    }
+    /*-----header-----*/
+
+    nav{
+        display: none !important;
+    }
+
+    .active-home-i{
+        display: none !important;
+    }
+
+    /*mobile nav plugin*/
+    .menu-wrap {
+        left: 90% !important;
+      }
+
+      .menu {
+        left: 70% !important;
+      }
+      .menu > div a {
+        font-size: 18px !important;
+      }
+
+    .menu-wrap {
+        display: initial !important;
+      }
+    /*mobile nav plugin*/
+
+
+    
+    header{
+        height: 350px;
+        background-size: cover;
+    }
+
+    .head-title{
+        height: 150px;
+        width: 250px;
+        margin: 95px 0px 0px 10px;
+    }
+    .head-title h1{
+        font-size: 160%;
+        padding: 15px 10px 4px 20px;
+    }
+
+    .head-title a:link,
+    .head-title a:visited{
+    
+        padding: 8px 28px 8px 28px;
+        margin-left: 20px;
+        font-size: 70%;
+    }
+
+
+
+
+    /*-----calculate section-----*/
+    .calculate-col1{
+        padding-bottom: 100px;
+}
+    .calculate-col1 img{
+        margin-top: -50px !important;
+        margin-right: 50px;
+        float: right;
+        width: 80%;
+        height: 100%;
+    }
+
+    .calculate-col2 h6{
+        padding: -0px 0px 8px 0px;
+    }
+
+    /*-----feature section-----*/
+
+    .feature-col1{
+        padding-left: 30px !important;
+    }
+    .feature-col2{
+        padding-left: 30px !important;
+    }
+    .feature-col3{
+        padding-left: 30px !important;
+    }
+    
+    /*****----------------------------------About Us Page------------------------------*****/
+
+    /*-----header-----*/
+
+    .about-headers div h4{
+        padding-left: 0px;
+        padding-top: 10px;
+        font-size: 170%;
+        line-height: 38px !important;
+        padding-bottom: 8px;
+    
+    }
+    .about-headers div p{
+        padding-left: 0px;
+        font-size: 80%;
+        margin-bottom: 14px;
+    
+    }
+    .about-headers div a{
+        margin-left: 0px;
+
+    }
+
+
+    /*------------------------------------------detail page--------------------------------------------*/
+
+    /*-----header-----*/
+
+
+    .design-gellery-slider{
+        margin-left: -30px !important;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .car-design-title{
+        padding-left: 0px !important;
+        margin-top: 40px;
+
+    }
+
+
+    /*-----car specification section-----*/
+
+    .car-specs-section{
+        text-align: center;
+    }
+    .specs-discribtion p{
+        margin-left: 0px;
+        margin-top: 50px;        
+    }
+
+    /*-----Why is it worth trusting us? section-----*/
+
+    .leasing-single-team-img{
+        margin-top: 20px;
+    }
+
+    /*-----Discover the advantages of this car-----*/
+
+    .discover-col1 h2{
+        padding-left: 20px;
+    }
+    .discover-col1 span{
+        margin-left: 20px;
+    }
+
+    .discover-top-line-col2{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    
+    }
+
+    .discover-contact{
+        margin-left: 5%;
+    }
+
+
+    /*------------------------------------------Contact page----------------------------------------*/
+
+    /*-----contact-header-----*/
+
+    .contact-header{
+        height: 350px;
+        background-size: cover;
+    
+    }
+    .contact-head-title{
+        height: 150px;
+        width: 250px;
+        margin: 260px 0px 0px 10px;
+    }
+    .contact-head-title h1{
+        font-size: 160%;
+        padding: 15px 10px 4px 20px;
+    }
+    .contact-head-title a:link,
+    .contact-head-title a:visited{
+        padding: 8px 28px 8px 28px;
+        margin-left: 20px;
+        font-size: 70%;
+    }
+
+    header{
+        height: 350px;
+        background-size: cover;
+    }
+
+    /*-----contact-info-sec-----*/
+
+    .contact-info-adress{
+        margin-left: 20px;
+        padding-right: 150px;
+        font-size: 165%;
+    }
+
+    .contact-info-number{
+        font-size: 137%;
+        margin-left: 20px;
+    
+    }
+    .contact-info-mail{
+        font-size: 137%;
+        margin-left: 20px;
+    
+    }
+    .contact-icons{
+        font-size: 20px;
+        margin-top: 24px;
+        margin-left: 20px;
+
+    }
+    .contact-info-endline{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    /*-----contact-message-section-----*/
+
+
+    .contact-time-col h3{
+        font-size: 165%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .contact-time-col p{
+        margin-left: 20px;
+    }
+
+    .contact-message-form{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 510px;
+        border: 25px solid #efedf0;
+
+
+    }
+
+    #name{
+        width: 100%;
+        height: 45px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    #email{
+        width: 100%;
+        height: 45px;
+        margin-bottom: 15px;
+    
+    }
+    #subject{
+        width: 100%;
+        height: 45px;
+        margin-bottom: 15px;
+        margin-left: 0px !important;
+    
+    }
+    #message{
+        width: 100%;
+        height: 42%;
+    }
+    .contact-message-btn{
+        margin-bottom: 20px !important;
+
+    }
+
+
+    /*-----footer----*/
+
+    .footer-section div{
+        margin: auto !important;
+        text-align: center !important;
+    }
+    .footer-heading{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .footer-form{
+        text-align: center;
+        float: none !important;
+        padding-bottom: 60px;
+    }
+
+    .product-info{
+        margin: auto;
+        text-align: center;
+        margin-top: 70px;
+    
+    }
+    .product-info div p{
+        padding: 30px 10px 20px 10px !important;
+
+    }
+
+    .footer-social-i:link,
+    .footer-social-i:visited{
+        float: none;
+    }
+
+    .product-info-icons{
+        padding-left: 60px !important;
+    }
+
+    .footer-up-i:link,
+    .footer-up-i:visited{
+        margin-top: 0px !important;
+    }
+       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========small phone: from 0 to 480px===========*/
+
+@media only screen and (max-width: 480px){
+
+    body{
+        font-size: 14px !important;
+    }
+
+    /*-----header----*/
+
+    nav{
+        display: none !important;
+    }
+
+    .active-home-i{
+        display: none !important;
+    }
+
+    
+    /*mobile nav plugin*/
+    .menu-wrap {
+        left: 85% !important;
+      }
+
+      .menu {
+        left: 35% !important;
+      }
+      .menu > div a {
+        font-size: 16px !important;
+      }
+
+    .menu-wrap {
+        display: initial !important;
+      }
+    /*mobile nav plugin*/
+
+
+    header{
+        height: 68vh;
+    }
+    .head-title{
+        height: 140px;
+        width: 220px;
+        margin-top: 180px;
+        margin-left: 10px;
+    }
+    .head-title h1{
+        color: #fff;
+        padding: 20px 20px 10px 25px;
+        font-size: 140%;
+    }
+
+    /*-----home stock section----*/
+
+    .stock-more-btn:link,
+    .stock-more-btn:visited{
+        padding: 3% 40% 3% 40%;
+    }
+
+    /*-----calculate section----*/
+
+    .calculate-col1 img{
+        margin-right: 70px;
+        width: 72%;
+    }
+    .calculate-col2 h1{
+        padding-right: 200px;
+    }
+    .about-join-sec a:link,
+    .about-join-sec a:visited{
+        margin-bottom: 200px !important;
+    }
+
+    /*-----join us section----*/
+
+    .join-us-sec{
+        padding-bottom: 50px;
+    }
+    .img-join-sec{
+        margin-top: 120px;
+
+    }
+
+  
+
+    /*-----feature section----*/
+
+    .feature-col1{
+        padding-left: 30px !important;
+    }
+    .feature-col2{
+        padding-left: 30px !important;
+    }
+    .feature-col3{
+        padding-left: 30px !important;
+    }
+
+    .feature-chat-btn:link,
+    .feature-chat-btn:visited{
+        padding: 3% 30% 3% 30%;
+    }
+
+
+    /*------------------------------------------about us page--------------------------------------------*/
+
+    /*-----Welcome to our office-----*/
+
+    .welcome-contact-btn:link,
+    .welcome-contact-btn:visited{
+        padding: 3% 30% 3% 30%;
+        margin-top: -30px;
+    }
+
+    /*------------------------------------------detail page--------------------------------------------*/
+
+    /*-----header-----*/
+
+    .design-gellery-slider{
+        height: 90%;
+        width: 108%;
+        overflow: hidden !important;
+        margin-left: -14px !important;
+    
+    }
+
+    /*------------------------------------------detail page--------------------------------------------*/
+
+    /*-----header-----*/
+
+        /*-----contact-header-----*/
+
+        .contact-header{
+            height: 480px !important;
+            background-size: cover;
+        
+        }
+    
+        .contact-head-title{
+            height: 150px;
+            width: 230px;
+            margin: 260px 0px 0px 10px;
+            margin-top: 200px !important;
+        }
+        .contact-head-title h1{
+            font-size: 160%;
+            padding: 15px 10px 14px 20px;
+        }
+    
+
+    /*-----footer----*/
+
+    .footer-section div{
+        margin: auto !important;
+        text-align: center !important;
+    }
+    .footer-heading{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .foot-form{
+        text-align: center;
+        float: none !important;
+        padding-bottom: 60px;
+    }
+
+    .product-info{
+        margin: auto;
+        text-align: center;
+        margin-top: 70px;
+    
+    }
+    .product-info div p{
+        padding: 30px 10px 20px 10px !important;
+
+    }
+
+    .footer-social-i:link,
+    .footer-social-i:visited{
+        float: none;
+    }
+
+    .product-info-icons{
+        margin-left: 50px;
+    }
+
+    .footer-up-i:link,
+    .footer-up-i:visited{
+        margin-top: 0px !important;
+    }
+   
+}
